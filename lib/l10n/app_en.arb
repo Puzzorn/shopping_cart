@@ -1,0 +1,157 @@
+{
+  "appTitle": "Shopping Cart",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "discover": "Discover",
+  "@discover": {
+    "description": "Title for the product list page"
+  },
+  "cart": "Your Cart",
+  "@cart": {
+    "description": "Title for the cart page"
+  },
+  "checkout": "Checkout",
+  "@checkout": {
+    "description": "Title for the checkout page"
+  },
+  "accountSettings": "Account & Settings",
+  "@accountSettings": {
+    "description": "Title for the account page"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Section header for settings"
+  },
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "Label for dark mode toggle"
+  },
+  "switchTheme": "Switch between Light and Dark themes",
+  "@switchTheme": {
+    "description": "Subtitle for theme toggle"
+  },
+  "signOut": "Sign Out",
+  "@signOut": {
+    "description": "Label for sign out button"
+  },
+  "shippingAddress": "Shipping Address",
+  "@shippingAddress": {
+    "description": "Section header for shipping address"
+  },
+  "orderSummary": "Order Summary",
+  "@orderSummary": {
+    "description": "Section header for order summary"
+  },
+  "total": "Total",
+  "@total": {
+    "description": "Label for total price"
+  },
+  "placeOrder": "Place Order",
+  "@placeOrder": {
+    "description": "Label for place order button"
+  },
+  "orderPlaced": "Order Placed Successfully!",
+  "@orderPlaced": {
+    "description": "Success message after placing order"
+  },
+  "cartEmpty": "Your cart is empty.",
+  "@cartEmpty": {
+    "description": "Message shown when cart is empty"
+  },
+  "error": "Error: {message}",
+  "@error": {
+    "description": "Error message with a placeholder",
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "addedToCart": "{product} added to cart",
+  "@addedToCart": {
+    "description": "Message shown when product is added to cart",
+    "placeholders": {
+      "product": {
+        "type": "String"
+      }
+    }
+  },
+  "signInToSeeAddress": "Please login to see shipping address.",
+  "@signInToSeeAddress": {
+    "description": "Message shown when user is not logged in on checkout"
+  },
+  "noAddress": "No address provided",
+  "@noAddress": {
+    "description": "Fallback text for missing address"
+  },
+  "languageThai": "Thai Language",
+  "@languageThai": {
+    "description": "Label for the Thai language toggle"
+  },
+  "statusActive": "Active",
+  "@statusActive": {
+    "description": "Status text when a setting is active"
+  },
+  "actionSwitchToThai": "Switch to Thai",
+  "@actionSwitchToThai": {
+    "description": "Action text to switch to Thai language"
+  },
+  "loginTitle": "Login",
+  "@loginTitle": {
+    "description": "Title for login page"
+  },
+  "usernameLabel": "Username",
+  "@usernameLabel": {
+    "description": "Label for username input"
+  },
+  "usernameHint": "Please enter username",
+  "@usernameHint": {
+    "description": "Validation error for username"
+  },
+  "passwordLabel": "Password",
+  "@passwordLabel": {
+    "description": "Label for password input"
+  },
+  "passwordHint": "Please enter password",
+  "@passwordHint": {
+    "description": "Validation error for password"
+  },
+  "loginButton": "Login",
+  "@loginButton": {
+    "description": "Label for login button"
+  },
+  "qty": "Qty: {quantity}",
+  "@qty": {
+    "description": "Quantity label",
+    "placeholders": {
+      "quantity": {
+        "type": "int"
+      }
+    }
+  },
+  "description": "Description",
+  "@description": {
+    "description": "Product description header"
+  },
+  "noDescription": "No description available.",
+  "@noDescription": {
+    "description": "Fallback text for empty description"
+  },
+  "addToCartButton": "Add to Cart",
+  "@addToCartButton": {
+    "description": "Label for add to cart button"
+  },
+  "navShop": "Shop",
+  "@navShop": {
+    "description": "Navigation label for Shop"
+  },
+  "navCart": "Cart",
+  "@navCart": {
+    "description": "Navigation label for Cart"
+  },
+  "navProfile": "Profile",
+  "@navProfile": {
+    "description": "Navigation label for Profile"
+  }
+}
