@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 import '../../domain/repositories/shop_repository.dart';
 import '../../../../core/di/injection_container.dart';
 import '../bloc/cart_bloc.dart';
@@ -40,12 +41,7 @@ class ProductListPage extends StatelessWidget {
                   children: [
                     IconButton(
                       onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const CartPage(),
-                          ),
-                        );
+                        context.push('/cart');
                       },
                       icon: const Icon(
                         Icons.shopping_bag_outlined,

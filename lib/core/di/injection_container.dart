@@ -10,7 +10,7 @@ import '../../features/auth/domain/usecases/login_usecase.dart';
 import '../../features/auth/domain/usecases/logout_usecase.dart';
 import '../../features/auth/domain/usecases/check_auth_usecase.dart';
 import '../../features/auth/presentation/bloc/auth_bloc.dart';
-import '../../features/shop/data/shop_repository_impl.dart';
+import '../../features/shop/data/repositories/shop_repository_impl.dart';
 import '../../features/shop/domain/repositories/shop_repository.dart';
 import '../../features/shop/presentation/bloc/cart_bloc.dart';
 import '../../features/shop/presentation/bloc/shop_bloc.dart';
